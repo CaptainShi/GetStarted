@@ -14,16 +14,8 @@ namespace Phoneword_iOS
     [Register ("CallHistoryController")]
     partial class CallHistoryController
     {
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITableView CallHistoryController { get; set; }
-
         void ReleaseDesignerOutlets ()
         {
-            if (CallHistoryController != null) {
-                CallHistoryController.Dispose ();
-                CallHistoryController = null;
-            }
         }
     }
 }
